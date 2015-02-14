@@ -1,0 +1,14 @@
+{
+"Email":
+{"Server":"10.8.7.1:25",
+"From":"mpl@smgl.fr.eu.org",
+"To":["mathieu.lonjaret@gmail.com"],
+"Message":"Subject: [gogallery] large upload notification"},
+"Dbfile":"./gallery.db",
+"Initdb":false,
+"Picsdir": "./",
+"Thumbsize": "200x300",
+"Normalsize": "800x600",
+"Tmpldir": "",
+"Norand": false
+}
