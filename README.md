@@ -2,15 +2,13 @@ Gogallery is a simple web server which allows to browse images in a convenient w
 
 It is written in Go, and uses sqlite to store the tags. It also uses imagemagick's convert to generate the thumbnails, although that will change when a go native solution for resizing images has matured enough. 
 
-{{{
-usage: 
-	 gogallery tag dir tagname
-	 gogallery deltag tagname 
-	 gogallery 
-  -conf="": json conf file to send email alerts
-  -h=false: show this help
-  -host="localhost:8080": listening port and hostname that will appear in the urls
-}}}
+    usage:
+      gogallery tag dir tagname
+      gogallery deltag tagname
+      gogallery
+        -conf="": json conf file to send email alerts
+        -h=false: show this help
+        -host="localhost:8080": listening port and hostname that will appear in the urls
 
 All images are initially tagged under "all", so 
 `http://host/tag/all` will display them all.
